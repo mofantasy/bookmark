@@ -1,0 +1,14 @@
+{
+  "name": "Mofantasy Bookmark",
+  "version": "0.0.1",
+  "description": "A bookmark management tool.",
+  "manifest_version": 3,
+  "icons": {},
+  "permissions": [
+    "bookmarks",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
